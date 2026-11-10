@@ -48,6 +48,12 @@ Closing: **Next 48 hours** (1–3 actions; first = contact with reality) and ≤
 - **Copycat check** — 1,000 social networks after Facebook, 1,000 photo apps after Instagram. First mover usually wins; clones don't.
 - **Competition** is normal and good. If entrenched, what is the *new insight*? What did all of them miss, or all of them do badly? If there is *none*, find out why (maybe nobody wants it).
 - **Proxy** — a similar company elsewhere proving the model?
+- **Positioning check: YC directory (optional, live).** When the idea has a clear category and the verdict hinges on "who else is here and how is mine different?", look at who YC funded there and how they describe themselves. Don't run it for every roast, only when it would change the advice.
+  - *How (use in this order):* (1) `WebSearch` scoped to `site:ycombinator.com/companies <generic category terms>`, which is the most reliable; (2) `WebFetch https://www.ycombinator.com/companies/industry/<Industry>` (e.g. `Legal`), which renders real listings with one-liners and batches; (3) `WebFetch https://www.ycombinator.com/companies/<slug>` for the 3–5 closest companies. **Don't fetch `/companies` itself or its `?filter=` URLs:** they return an empty JS shell.
+  - *Output:* 3–5 closest companies, each with the one-liner quoted, the customer it targets, and the batch. Then state the gap: what they all pitch, what none of them cover, and whether the user's wedge sits in that gap. Name it: "These three all sell X to Y. You'd be Z."
+  - *Read it right:* a crowded cluster means tar pit unless the user has a real new insight. It does **not** mean the idea is validated. An empty cluster is **not** proof of opportunity either (maybe nobody wants it, maybe it's too new to be listed). The directory shows survivors only, never the many that failed, so say that. Funded does not mean working. Positioning is for finding the gap, not for copying.
+  - *Privacy:* search with generic category terms only. Never put the user's project name, repo details or secrets in a query or URL.
+  - *Verify before citing:* quote only what the page showed. If a fetch or search fails, say "check whether…" rather than guessing competitors.
 
 ### D. The reach — can they actually get customers?
 - Who is customer one, by name or by room? Where does the buyer spend time (trade shows, job sites, Reddit, phone, WhatsApp)? Is the plan "build it and they will come" with a self-serve funnel + hope?

@@ -19,7 +19,7 @@ If facts are missing: state `Assumption:` and proceed. Don't interrogate first.
 3. **Pain / Profession / Passion** (Hormozi's 3 Ps): a thing you overcame (a mother of nine who has a system for cheap, high-protein packed lunches); a skill from a job (a hospital dietitian who learned to bill insurance quickly, then taught other dietitians — narrow, ~$1M/year on a small audience); a thing you consume voluntarily. *Fractionalize*: any business is a bundle of jobs (sales, marketing, support, design…); learn one and sell it.
 4. **Things they wish existed** — classic, but the recipe *most likely to lead to tar pits*. Always ask: **"Is there a reason this doesn't exist yet?"**
 5. **What recently changed.** New tech, a price collapse, a regulation, a behavior shift, a pandemic. The "why now" is the idea. **Wave-spotting:** the best companies caught a technology wave early, while others still called it a toy. You can't create a wave; you can notice one and surf it. Clusters: internet (mid/late 90s), mobile (post-2007). Ask: *what's the wave starting right now, and who's still dismissing it?*
-6. **Variants of recent winners.** "Flexport for Latin America", "Opendoor for rentals." Systematic search is legitimate (large market, proxies, you can start, you'd be good at running it) — hard, but works.
+6. **Variants of recent winners.** "Flexport for Latin America", "Opendoor for rentals." Systematic search is legitimate (large market, proxies, you can start, you'd be good at running it) — hard, but works. Optional live check: see how YC-funded companies in the space position themselves using the directory method in `roast.md` ("Positioning check: YC directory"), then aim at the gap they leave, not at their pitch.
 7. **Immersion in a fertile space.** Pick a big, un-software'd industry; become an expert fast: go where the customers physically are, talk to founders in the space and anyone who knows it, build a mental map of where the good and bad ideas are, *then* evaluate a batch. (AtoB, fuel cards for truckers.) Most founders skip this — "it sounds like too much work."
 8. **Big industries that seem broken.** Almost always ripe.
 9. **Demand tailwinds & supply constraints** (Hormozi's "easy + high money" quadrant): aging population ("all the money is in old people": med spas, wealth advisory, elder care, funeral services), regulatory-change windows (Botox, cannabis, GLP-1s), government-mandated purchases (fire-safety inspection: ~7-minute visit, ~$700, repeat), sticky recurring/compounding fees, cost-inelastic buyers spending other people's money, and **uncool businesses with few entrants** (debt collection, waste, payday, commercial cleaning, elevator maintenance). Regulation is a green flag ("it made so much money the government had to step in"). Discount anything that sounds cool at a cocktail party — everyone wants it, so everyone does it.
@@ -28,6 +28,17 @@ If facts are missing: state `Assumption:` and proceed. Don't interrogate first.
 12. **Reframe from product to customer outcome.** "Don't build a better camera, build a better photographer." Features live in the solution context; outcomes live in a bigger one. (Maurya went from "a better modeling tool" to "making better entrepreneurs".)
 13. **Reposition an existing product for a new identity/community** (Stanley: same cup, new colorways, creators, scarcity → $74M to $750M). The product can be old; the lever is who it says you are.
 14. **AI-era moves:** sit at the **edge of what models can barely do today** (it'll improve; understand the bottleneck — it may become the company); **sell the outcome, own the stack** ("don't build software for insurers — be the insurer; don't build back-office software for banks — be the bank") because software cost → ~0 and value moves to trust, licenses, regulatory permission and outcome ownership; aim for the **most ambitious version** (cost of ambition ≈ cost of modesty).
+
+### 1b. Optional live seed: YC Requests for Startups (RFS)
+A curated, current list of what experienced investors want built — a fast "what changed / why now" source. **Opt-in, never the default.**
+
+- **Use it when:** the founder has no strong idea of their own, asks for "what's hot / what's being funded", or the sources above come up thin. **Skip it** when they arrive with their own spark — then go straight to shaping that.
+- **How:** `WebFetch https://www.ycombinator.com/rfs`. Always fetch live; never recite RFS entries from memory (the list changes). If the fetch fails, say so and carry on with section 1 — don't stall.
+- **Pick 2–3 entries** that intersect the founder's strengths, assets or reachable customers (step 0 triage). Ignore the rest.
+- **Bend, don't copy.** Everyone reads this page, so the raw entry is a crowded idea. Turn each into a concrete bet for *this* founder: a narrower first customer, an unusual vantage point, a wedge the RFS doesn't mention. Then shape it into an Idea Card as normal.
+- **Cite it honestly:** "YC is asking for X" is a signal of interest, **not validation**. Demand still gets tested by the 48-hour test. In the card's *Why now*, name the RFS as the source.
+- **Cap it:** at most one RFS-derived idea per tier, so the output stays about the founder rather than a repost of the list.
+- **Same trap as "things they wish existed":** an RFS entry can still be a tar pit. Ask "why hasn't this been solved?" before keeping it.
 
 ### 2. Filter lightly — only for the right reasons
 Apply the *kill-for-the-right-reasons* list from `roast.md` quickly. Do **not** filter by market size, boredom, difficulty or how it sounds. Do drop: solution-in-search-of-a-problem, obvious tar pits without an insight, anything the founder can't reach a buyer for.
@@ -88,6 +99,7 @@ Core-mechanic seeds (see `features-mechanics.md`): shorten time-to-aha; make pro
 - Does each have a reason it's *now*?
 - Is at least one idea slightly uncomfortable — weird, hard, boring, or off-trend — in the way real opportunities often are?
 - Are these ideas for **this** founder (and this repo), or could they be pasted onto anyone?
+- If I used the YC RFS: did I fetch it live, bend the entries toward this founder, and avoid presenting "YC wants it" as proof of demand?
 - Have I avoided: AI-because-it's-cool, tar pits, copycat of last year's hot thing, "Uber for X", an app to coordinate plans with friends?
 
 ## Anti-patterns

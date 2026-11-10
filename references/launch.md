@@ -73,6 +73,16 @@ Post content · run ads · outreach to strangers · outreach to people you know.
 ### Frame it as something other than a pitch — but only if it's real
 Ask for advice, mentorship, a product review, a whiteboard session. Don't disguise a sales call as advice-seeking if you're not genuinely open to learning. Examples that worked: asking dozens of CEOs to be a mentor (a few became customers); **interviewing 200 salespeople before building** — maxing LinkedIn connections each week around one hypothesis (~50% accepted, ~20% of those took calls), "user research on steroids," ending with a pipeline of people who'd told her exactly what they needed; offering startups free whiteboarding on their agent architecture (which happened to require the product); **paying lawyers $100–200/hour for product feedback** (~30% accepted; works in high-contract-value markets).
 
+### Public challenge: Show HN (https://news.ycombinator.com/show)
+Put the working product in front of engineers and founders who will tear it apart, so the assumptions get challenged by strangers before investors, or the market, do it for you. It is a stress test first and a distribution channel second.
+- **Fits when:** dev tools, technical or infra products, B2B software with a technical or founder buyer, anything the user can show working today. **Skip when:** consumer apps, non-technical buyers, or no demo yet. Do the Demo → Sell → Build step first.
+- **Requirements:** something people can try right now with no signup wall or waitlist (a Show HN of a landing page gets ignored); a title that says plainly what it does; a first comment from the founder with the backstory, how it works, and **the specific assumptions you want challenged** ("I think X is true. Tell me where I'm wrong.").
+- **Ask for the attack:** the useful replies are "this already exists", "why not just use X", "who pays for this", and "this breaks when…". Log them verbatim like the "no"s in the 14-day plan, then sort into *answered by evidence*, *answered by changing the product*, and *real hole*.
+- **Read it right:** HN readers are often not the buyer. Praise and upvotes are not validation, and a front-page spike with zero paying users is a vanity win. The signals that count are objections you couldn't answer, and anyone who asks "can I pay for this" or "can I use this at work".
+- **Rules:** never ask friends to upvote or coordinate votes (HN penalizes it). Stay in the thread and reply to every substantive comment for several hours. Don't get defensive. Take the harshest comment seriously first.
+- **Order:** after at least a few real conversations with target customers, not instead of them. Use it to sharpen the pitch and the moat story before fundraising.
+- **Pair with** the competitor/positioning check in `roast.md`: that finds the gap on paper, and Show HN finds out whether it holds up in public.
+
 ### Partner / affiliate distribution
 Build the machine, not just a link: offer → page → promotion → onboarding/activation → collateral → comms → human follow-up for the top 50–100 (full spec in `features-mechanics.md`).
 
@@ -146,4 +156,4 @@ Brand angle: peers trust peers more than marketing. Invite customers to co-autho
 (The pass/fail numbers are suggested defaults of infounder's own, not sourced figures — set X and Y to the user's reality; the point is to pre-commit to thresholds *before* you see the results.)
 
 ## Anti-patterns
-Tooling before talking to anyone · optimizing subject lines before confirming the channel fits the buyer · an MVP + self-serve funnel + hope · building a user base from the people who are easiest to reach rather than the people who most need it · tiny test samples · free with nothing back · mass-emailing templated notes with one customized word · begging · pretending to be a big company · forgetting to ask for the referral.
+Tooling before talking to anyone · optimizing subject lines before confirming the channel fits the buyer · an MVP + self-serve funnel + hope · building a user base from the people who are easiest to reach rather than the people who most need it · tiny test samples · a Show HN with no working demo, or one treated as demand proof · free with nothing back · mass-emailing templated notes with one customized word · begging · pretending to be a big company · forgetting to ask for the referral.
