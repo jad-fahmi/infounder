@@ -86,6 +86,11 @@ Solo toll underestimated · never take a co-founder to please investors · trial
 
 ---
 
+## 5b. When the doubt is bigger than a coaching question
+For a commit/pivot/quit call, name the **strongest dissent** before you give your call: who at the table (`council.md`) would argue the other way, and what evidence would make them right. Sequence: your diagnosis → the dissent → your call → what would change your mind. For concrete defaults on common doubts (pivot, second project, quit the job, co-founder, "I feel guilty") see `dilemmas.md` #18, #20, #22, #23, #30.
+
+---
+
 ## 6. Output format
 
 ```

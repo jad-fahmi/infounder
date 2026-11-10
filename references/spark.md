@@ -28,6 +28,7 @@ If facts are missing: state `Assumption:` and proceed. Don't interrogate first.
 12. **Reframe from product to customer outcome.** "Don't build a better camera, build a better photographer." Features live in the solution context; outcomes live in a bigger one. (Maurya went from "a better modeling tool" to "making better entrepreneurs".)
 13. **Reposition an existing product for a new identity/community** (Stanley: same cup, new colorways, creators, scarcity → $74M to $750M). The product can be old; the lever is who it says you are.
 14. **AI-era moves:** sit at the **edge of what models can barely do today** (it'll improve; understand the bottleneck — it may become the company); **sell the outcome, own the stack** ("don't build software for insurers — be the insurer; don't build back-office software for banks — be the bank") because software cost → ~0 and value moves to trust, licenses, regulatory permission and outcome ownership; aim for the **most ambitious version** (cost of ambition ≈ cost of modesty).
+15. **Build a moat asset on purpose** (community or proprietary data). When features are cheap to copy, the ideas that last are the ones where each customer makes the product better for the next (data) or where customers stay for each other (community). Ask of any idea: *what asset does this accumulate that a rival can't clone in a quarter?* → `ai-era.md` §1-2.
 
 ### 1b. Optional live seed: YC Requests for Startups (RFS)
 A curated, current list of what experienced investors want built — a fast "what changed / why now" source. **Opt-in, never the default.**
@@ -39,6 +40,27 @@ A curated, current list of what experienced investors want built — a fast "wha
 - **Cite it honestly:** "YC is asking for X" is a signal of interest, **not validation**. Demand still gets tested by the 48-hour test. In the card's *Why now*, name the RFS as the source.
 - **Cap it:** at most one RFS-derived idea per tier, so the output stays about the founder rather than a repost of the list.
 - **Same trap as "things they wish existed":** an RFS entry can still be a tar pit. Ask "why hasn't this been solved?" before keeping it.
+
+### 1c. "It's taken" — 17 ways to enter a crowded space
+
+"Everyone says the business idea is taken" is not a reason to stop. It's a reason to pick an *angle*. The list below (a popular reel's version of it, grouped here) is a menu of angles. **An adjective is not a wedge:** "simpler" and "better" only count if you can show, in a demo, that you're ~10× better on the one dimension a specific buyer cares about. Fewer angles, sharper.
+
+| Family | Angles | When it's a real wedge | Trap |
+|---|---|---|---|
+| **Experience** | simpler · smarter · friendlier · faster · better · more fun · better design · more modern | You delete the step everyone hates (Dropbox was ~20th in cloud storage; the insight was files that just sync). Jobs: delete everything that sucks and see what remains. | "Better" with no named dimension. Polishing a me-too. |
+| **Position & price** | premium · affordable | *Premium:* a narrow who who'll pay more for status/certainty (narrow = pricier). *Affordable:* only if your cost structure is structurally lower (Musk/Buffett: what's the cost floor?). | Cheap without a cost advantage is a price war you lose. The squishy middle. |
+| **Business model** | on a subscription · bundled · where you both win | You change *how it's paid for*: recurring instead of one-off, bundle to raise value and cut CAC, or align incentives so the partner wins when you win (rev-share, affiliate, "win-win-win"). | A subscription for something people use twice a year. A bundle of weak parts. |
+| **Market** | in a new country | A proven model (a **proxy**) isn't served locally: localize language, payments, regulation, trust. (DoorDash proved delivery works in a region it hadn't reached.) | Ignoring local competitors, regulation, and payment rails. Spreading before one market works. |
+| **Go-to-market & brand** | with a better lead magnet · with charisma · sustainably | You win distribution: a give-first artifact (a free audit/scan of *their* thing), a founder-led personal brand (be yourself; your fingerprint is unique), a values stance that is *real* (supply chain, materials) and that your buyer pays for. | A lead magnet no one asked for. "Charisma" with no product behind it. Greenwashing. |
+
+**How to use it**
+1. Name the incumbents in one line each (what they all pitch, who they sell to).
+2. Pick **one primary angle** (the wedge) and at most **one supporting angle**.
+3. Write: *"Unlike [incumbent], we [angle] for [specific who] so they can [outcome]."*
+4. If you can't make it specific, it's not an angle yet.
+5. Test it on 10 buyers (pre-order, demo request). Competitors are evidence of demand; the test is whether anyone will *switch*.
+
+*Cross-check with `roast.md` §C (tar pit and positioning check) and the Altman lens in `council.md`: clones lose to originators, so the angle must be something an incumbent can't ship by Tuesday.*
 
 ### 2. Filter lightly — only for the right reasons
 Apply the *kill-for-the-right-reasons* list from `roast.md` quickly. Do **not** filter by market size, boredom, difficulty or how it sounds. Do drop: solution-in-search-of-a-problem, obvious tar pits without an insight, anything the founder can't reach a buyer for.

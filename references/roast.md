@@ -46,7 +46,7 @@ Closing: **Next 48 hours** (1–3 actions; first = contact with reality) and ≤
 - What changed (newly possible/necessary)? If nothing — why hasn't this been done?
 - **Tar pit check** — a common, easy-looking idea many founders hit and nobody has solved. Not impossible, just harder than it seems; need a new insight. Google it, find who tried, find the hard part.
 - **Copycat check** — 1,000 social networks after Facebook, 1,000 photo apps after Instagram. First mover usually wins; clones don't.
-- **Competition** is normal and good. If entrenched, what is the *new insight*? What did all of them miss, or all of them do badly? If there is *none*, find out why (maybe nobody wants it).
+- **Competition** is normal and good. If entrenched, what is the *new insight*? What did all of them miss, or all of them do badly? If there is *none*, find out why (maybe nobody wants it). When the user says "it's taken", don't accept or reject it: pick one wedge from `spark.md` §1c ("It's taken": experience, price, model, market, go-to-market) and make them finish *"Unlike X, we ___ for ___ so they can ___."* An adjective ("better", "simpler") is not a wedge.
 - **Proxy** — a similar company elsewhere proving the model?
 - **Positioning check: YC directory (optional, live).** When the idea has a clear category and the verdict hinges on "who else is here and how is mine different?", look at who YC funded there and how they describe themselves. Don't run it for every roast, only when it would change the advice.
   - *How (use in this order):* (1) `WebSearch` scoped to `site:ycombinator.com/companies <generic category terms>`, which is the most reliable; (2) `WebFetch https://www.ycombinator.com/companies/industry/<Industry>` (e.g. `Legal`), which renders real listings with one-liners and batches; (3) `WebFetch https://www.ycombinator.com/companies/<slug>` for the 3–5 closest companies. **Don't fetch `/companies` itself or its `?filter=` URLs:** they return an empty JS shell.
@@ -72,7 +72,7 @@ Closing: **Next 48 hours** (1–3 actions; first = contact with reality) and ≤
 ### F. The ceiling & the vehicle
 - **Maxed-out test:** "What does it look like at its best — does anyone get rich from it? How many service-based gym owners are worth a billion?" If nobody has maxed it, maybe you'll be the exception; but there may be a better vehicle.
 - **Idiot Index placement** (see `monetization.md`): labor-heavy commodity (avoid) · easy/low-money (starter cash) · expert-dependent (a good job, not an asset; survivorship bias — "how many Joe Rogans?") · moat-built hard/high-money · demand/supply-arbitrage easy/high-money.
-- **Moat:** deep skill, network effects, compounding time, regulatory, capital. "If everyone can do it, everyone will do it." AI is eroding some SaaS moats.
+- **Moat:** deep skill, network effects, compounding time, regulatory, capital, **community, proprietary data, distribution**. "If everyone can do it, everyone will do it." AI is eroding thin SaaS moats. **Run the Lab Test** (`ai-era.md` §1): *if a lab shipped this feature tomorrow, what would customers lose by leaving you?* "Nothing" means you have a feature, not a company. Name the one moat to build and its 48-hour first move.
 - **Income vs. asset:** will it be transferable if the founder leaves?
 - Match to the founder's goal (income / cash flow / enterprise value / billions).
 
@@ -99,6 +99,7 @@ Closing: **Next 48 hours** (1–3 actions; first = contact with reality) and ≤
 - Customers outgrow it, or the buyer changes and you'd need a new product.
 - Services business pretending to be software (when the stated goal is software scale).
 - A capped or labor-heavy-commodity vehicle for the stated goal.
+- A thin AI wrapper that fails the Lab Test with no community, data or distribution moat in sight (`ai-era.md`).
 - Founder-dependent model.
 - Capital need far beyond the founder's means with no credible raise.
 - Precise-spec failure: they can't say what it does.

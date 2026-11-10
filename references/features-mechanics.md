@@ -77,6 +77,13 @@ Do ~20 minutes of work before asking for 30 minutes: a security scan of their pu
 - Founders answering support personally. "Would I reply to my own email?"
 - Do things big companies can't: DM the customer; fix their problem personally; show up.
 
+### 9. Community & lifecycle (the AI-era moat mechanics)
+- **Community as the product's gravity.** Make customers valuable to *each other* (shared goal, peer help, status, identity). Seed 20 users, host the thread, and watch for unprompted peer-to-peer posts. Strava-style: people stay for the people. → `ai-era.md` §2.
+- **Match newcomers to helpers.** A newcomer's post sits unanswered for X hours → DM the member whose interests best fit: "Could you take this one?" (Hand-run for the first month; automate once it works.)
+- **Stuck-user rescue.** Define the activation event; when a user stalls short of it, send one relevant, human-sounding nudge. Founder writes the first 50 by hand; measure lift against a holdout before automating or adding an AI "interest map". → `ai-era.md` §3 (with ethics and privacy guardrails).
+- **Data that compounds.** Decide what each customer interaction *adds* to a dataset the next customer benefits from (with consent and rights to keep it).
+- **Co-created scarcity.** Limited drops and creator collaborations let customers co-author the story (Stanley); only if the product is already liked, and prepare for the downsides of scarcity.
+
 ---
 
 ## The 90/10 library (dirty-but-works moves)

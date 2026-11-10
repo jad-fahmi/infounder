@@ -80,6 +80,13 @@ infounder brings a bet first and asks few questions. When you do ask, choose the
 - How many reps until it'd be unreasonable that I'd still suck?
 - Why do you think life/work needs to be meaningful in this particular way? (Exposes unspoken "shoulds".)
 
+## Council openers (for `ask`; pick one, never a list)
+- Which stage are you actually at: no idea, idea with no users, users with no revenue, revenue that's flat, or growing? (Seats depend on it.)
+- Is this decision reversible in a week (two-way door), or does it lock you in (one-way door)?
+- What do you *want* from this: income, cash flow, an asset you can sell, or something huge? (Changes every seat's advice.)
+- What have you *done* so far on this (users talked to, dollars collected, iterations shipped)? Not what you plan.
+- Who is the strongest person who'd tell you not to do this, and what would they say?
+
 ## Standard closers (use ≤2)
 - "Tell me <X> and I'll tighten the recommendation."
 - "Who are three people you could talk to this week who have this problem?"

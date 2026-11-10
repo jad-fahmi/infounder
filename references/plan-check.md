@@ -65,6 +65,7 @@ Go down their list item by item. For each: *Is that your job right now? What fir
 - A scale problem you don't have yet isn't a problem. Facebook ran separate PHP/MySQL/memcache stacks per school and delayed a global users table for years; Google built MapReduce only after a monolithic search product with users had a crisis; Twitch's first fix for traffic spikes was a static cached page.
 - Don't hire platform specialists, or build for Android+iOS+web+API at once, before you know the product is wanted.
 - Do protect the core path when reliability *is* the product.
+- **Abuse and cost safety is not premature scaling.** Rate limits on every metered endpoint (not only login), plan quotas, bot checks on anonymous forms, provider spend caps and alerts: a day of work that prevents a five-figure bill or an outage. Scalable *architecture* waits; *guardrails on things that cost money per request* don't. → `ai-era.md` §5.
 
 ---
 

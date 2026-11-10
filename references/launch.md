@@ -31,6 +31,9 @@ Where does the target customer actually spend their time? What does their averag
 ### d) Decide what's free and what's paid
 See "Free pilot terms" below. Default is paid; free only with skin in the game.
 
+### e) Findability plumbing (if you have a website; 1-2 hours, once)
+Not a growth strategy and too slow to be your only channel pre-PMF, but free to set up. Verify the site in **Google Search Console** and **submit the XML sitemap**; give every page a unique title and meta description and one H1; make key pages answer real customer questions clearly (good for classic **SEO** and for being cited by AI answer engines: **GEO**); add schema.org markup where it fits; and if you serve a local or service-area market, claim and complete your **Google Business Profile**. Checklist in `ai-era.md` §4. Then go back to outreach: the first ten customers come from conversations, not rankings.
+
 ---
 
 ## 2. The customer-number ladder

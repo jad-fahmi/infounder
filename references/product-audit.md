@@ -63,6 +63,7 @@ Open the audit with: *"What this actually is: …"* (2–3 lines). Let the user 
 ### G. Instrumentation & learning loop
 - Are the **four numbers** tracked: activation rate, week-1 retention, paid conversion, referral rate? If not, instrumenting these is the first fix.
 - Is there a way to run experiments on pricing, landing page, onboarding, features (flags, variants), or to ship daily?
+- Is there an **activation event** defined in code, and a "stuck" state someone could act on (signed up, never activated)? If users exist, the cheapest lift is one well-timed nudge, written by hand first (`ai-era.md` §3: the lifecycle engine, with its ethics and privacy guardrails).
 
 ### H. Founder ↔ customer channel
 - Can a customer reach a human fast? Does the founder talk to users (reply-to address, in-app message, calls)? Early users stay because they trust the founder.
@@ -82,6 +83,14 @@ Open the audit with: *"What this actually is: …"* (2–3 lines). Let the user 
 
 ### K. Quality of the unglamorous basics
 - Loading speed, error states, empty states, mobile, accessibility, copy typos. (Apply the `apple-design` / `unslop` skills if available and visual polish is the issue — infounder owns *product strategy*, not pixels.)
+
+### L. Abuse & cost safety ("denial of wallet")
+This is **not** premature scaling; it's cheap insurance. Full baseline and grep hints in `ai-era.md` §5.
+- List every endpoint that costs money or compute per request (model calls, search, uploads, email/SMS, signup/reset, contact forms, public APIs, webhooks). For each: is there a **per-user and per-IP rate limit**, a **plan quota**, **auth**, a **bot check** (anonymous routes), input/size/token bounds, and a **provider-side spend cap** with an alert?
+- Is login the *only* thing protected? That's the classic gap.
+- Is there a kill switch for the costliest feature? Are secrets server-side only? Are database access rules (e.g. row-level security) on and tested?
+- Report with `file:line` and the smallest fix (one shared limiter middleware plus a provider spend cap), not a rewrite.
+- Findability plumbing, if a public site: `ai-era.md` §4 (Search Console, sitemap, titles/descriptions, SEO + GEO, Google Business Profile).
 
 ---
 
@@ -116,7 +125,7 @@ Activation = <definition>. Track: activation, week-1 retention, paid conversion,
 - **Blocker:** a stranger can't get to value or can't pay.
 - **Leak:** a step many drop at; unclear value; no return reason.
 - **Missed lever:** no referral path, no upgrade constraint, no instrumentation, no founder contact.
-- **Debt/risk:** over-engineering, hostile patterns, reliability gaps in the core path.
+- **Debt/risk:** over-engineering, hostile patterns, reliability gaps in the core path. **Unmetered expensive endpoints are a Blocker once the app is public** (one script can run up the bill and take it down).
 - **Polish:** do last. "Your goal right now isn't to get it perfect. Your goal is to just make it exist."
 
 ## Anti-patterns for the auditor

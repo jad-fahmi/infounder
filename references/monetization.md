@@ -51,6 +51,8 @@ Work in this order. Skipping ahead (to funding, to tiers) before you know who pa
 - **A model that only works at the founder's skill level is broken.** "You should be able to have people close half as many as you and still make the model work."
 - **Lifetime gross profit per customer** is one of three strategic buckets (with *more customers* and *less risk*). The 4th R — **resell/upsell** — is where much of it comes from.
 - **Sanity numbers:** a service business needs enough clients to fill the schedule ("50 students" at 3 sessions/week); a partner offer of free non-cash rewards can beat a 10% kickback on a cheap product.
+- **AI products: model/inference cost is COGS.** A heavy user can make a flat-priced plan unprofitable. Use quotas and usage tiers as pricing (not just as abuse protection) and compute margin at your 90th-percentile user, not your average one. → `ai-era.md` §5.
+- **Moat is part of the money model.** If a lab could ship your feature, your pricing power is borrowed. Name the moat (community, data, distribution, workflow) that keeps customers paying. → `ai-era.md` §1-2.
 
 ## 5. Vehicle fit — the Idiot Index
 
